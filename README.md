@@ -19,33 +19,33 @@ Antes de ejecutar el proyecto, asegúrate de tener lo siguiente:
 ### Instalación y Configuración
 
 ### Backend: FastAPI 
-1. Instala las dependencias del backend:
+   1. Instala las dependencias del backend:
    
-```bash
-pip install -r requirements.txt
-```
-2. Configura la API Key de Google Gemini:
-Crea un archivo config.ini en el directorio raíz del proyecto con el siguiente contenido:
-```bash
-[APIAccess]
-GOOGLE_API_KEY = TU_API_KEY_DE_GOOGLE_GEMINI
- ```
-3. PARA EJECUTAR: Ejecuta la FastAPI:
- El servidor estará disponible en http://localhost:8000.
- ```bash
-uvicorn main:app --reload
- ```
+   ```bash
+   pip install -r requirements.txt
+   ```
+   2. Configura la API Key de Google Gemini:
+   Crea un archivo config.ini en el directorio raíz del proyecto con el siguiente contenido:
+   ```bash
+   [APIAccess]
+   GOOGLE_API_KEY = TU_API_KEY_DE_GOOGLE_GEMINI
+   ```
+   3. PARA EJECUTAR: Ejecuta la FastAPI:
+    El servidor estará disponible en http://localhost:8000.
+   ```bash
+   uvicorn AnalisisSentimientos:app --host 0.0.0.0 --port 8000 --reload
+   ```
  
 ### Frontend: React Native
 
-Configura la IP de la API:
-
-En el archivo App.js, cambia la URL de la API:
-```bash
-const response = await fetch("http://<TU_IP_>:8000/analisisSentimientos", {
-```
-
-4. Ejecuta la aplicación móvil:
-```bash
-npx expo start
-```
+   4. En el archivo App.js, cambia la URL de la API:
+   ```bash
+   const response = await fetch("http://<TU_IP>:8000/analisisSentimientos", {
+   ```
+   ```bash
+   const response = await fetch(`http://<TU_IP>:8000/comentario/${sentimientoSeleccionado}`, {
+   ```
+   5. Ejecuta la aplicación móvil:
+   ```bash
+   npx expo start
+   ```
