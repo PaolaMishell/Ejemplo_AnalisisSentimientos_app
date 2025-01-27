@@ -22,6 +22,31 @@ Asegúrate de contar con lo siguiente antes de empezar:
 - Una **[API Key válida de Google Gemini](https://aistudio.google.com/apikey)**.
 - **Conexión de red** para configurar la IP del servidor en el frontend.
 
+## ¿Qué es Python?
+
+**Python** es un lenguaje de programación de alto nivel, ampliamente utilizado por su simplicidad y versatilidad. Fue diseñado con un enfoque en la legibilidad del código, lo que facilita su aprendizaje y uso. Python es ideal para diversas aplicaciones, como:
+
+- Desarrollo web.
+- Análisis de datos y aprendizaje automático.
+- Automatización de tareas.
+- Desarrollo de aplicaciones científicas y de inteligencia artificial.
+
+Gracias a su extensa biblioteca estándar y su amplia comunidad, Python se ha convertido en una herramienta esencial para desarrolladores y científicos de datos de todo el mundo. [Más información sobre Python](https://www.python.org/).
+
+---
+
+## ¿Qué es FastAPI?
+
+**FastAPI** es un framework moderno y de alto rendimiento para construir APIs en Python. Es conocido por su simplicidad, rapidez y su compatibilidad con las últimas características de Python, como las anotaciones de tipo. Algunas de las principales ventajas de FastAPI incluyen:
+
+- **Alto rendimiento:** Basado en ASGI y optimizado con Starlette y Pydantic.
+- **Autogeneración de documentación:** Crea automáticamente documentación interactiva para tus endpoints con Swagger y Redoc.
+- **Validación de datos:** Usa anotaciones de tipo para validar y documentar datos de entrada y salida.
+- **Fácil de usar:** Su diseño intuitivo permite a los desarrolladores construir APIs robustas rápidamente.
+
+FastAPI es ideal para crear APIs RESTful y es utilizado en proyectos que requieren escalabilidad y alto rendimiento. [Más información sobre FastAPI](https://fastapi.tiangolo.com/).
+
+
 ---
 
 ## Instalación y Configuración
