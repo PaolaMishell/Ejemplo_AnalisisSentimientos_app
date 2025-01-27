@@ -26,6 +26,8 @@ Asegúrate de contar con lo siguiente antes de empezar:
 
 **Python** es un lenguaje de programación de alto nivel, ampliamente utilizado por su simplicidad y versatilidad. Fue diseñado con un enfoque en la legibilidad del código, lo que facilita su aprendizaje y uso. Python es ideal para diversas aplicaciones, como:
 
+![Logo de Python](https://magmax.org/images/python.png)
+
 - Desarrollo web.
 - Análisis de datos y aprendizaje automático.
 - Automatización de tareas.
